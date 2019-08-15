@@ -15,9 +15,19 @@ function generateDNAJSON() {
   return Balthazar.convertVars(outputPath, CSS_OUTPUT_TYPE, dnaPath);
 }
 
+function stripReference(value) {
+  return value.replace(/(colorStopData|colorTokens|scaleData|dimensionTokens)\./g, '');
+}
+
+function getJSVariableReference(value) {
+  let reference = stripReference(value);
+  let parts = reference.split('.');
+  return parts.shift() + parts.map(JSON.stringify).map(value => `[${value}]`).join('.');
+}
+
 function getExport(key, value) {
   if (value[0] === '$') {
-    let reference = processReference(value.substr(1));
+    let reference = getJSVariableReference(value.substr(1));
     return `exports[${JSON.stringify(key)}] = ${reference};\n`;
   }
   else {
@@ -25,10 +35,33 @@ function getExport(key, value) {
   }
 }
 
-function processReference(value) {
-  let reference = value.replace(/(colorStopData|colorTokens|scaleData|dimensionTokens)\./g, '');
-  let parts = reference.split('.');
-  return parts.shift() + parts.map(JSON.stringify).map(value => `[${value}]`).join('.');
+function getCSSVariableReference(value) {
+  // Strip the stop information
+  value = value.replace(/colorStopData\..*?\.colorTokens\./, 'global-color.');
+  value = value.replace(/colorStopData\..*?\.colorAliases\./, 'alias.');
+  // Strip the scale information
+  value = value.replace(/scaleData\..*?\.dimensionTokens\./, 'global-dimension.');
+  value = value.replace(/scaleData\..*?\.dimensionAliases\./, 'alias.');
+  // Sub in proper names for globals
+  value = value.replace(/colorGlobals\./, 'global-color.');
+  value = value.replace(/dimensionGlobals\./, 'global-dimension.');
+  value = value.replace(/fontGlobals\./, 'global-font.');
+  value = value.replace(/staticAliases\./, 'alias.');
+
+  let parts = value.split('.');
+  return '--spectrum-' + parts.join('-');
+}
+
+function getCSSVar(prefix, key, value) {
+  key = prefix ? `${prefix}-${key}` : key;
+  key = `--spectrum-${key}`;
+  if (value[0] === '$') {
+    let reference = getCSSVariableReference(value.substr(1));
+    return `  ${key}: var(${reference});\n`;
+  }
+  else {
+    return `  ${key}: ${value};\n`;
+  }
 }
 
 let dnaModules = [];
@@ -42,30 +75,82 @@ function generateDNAJS() {
     'staticAliases'
   ];
 
+  let dropTokens = {
+    'name': true,
+    'description': true,
+    'status:': true,
+    'varBaseName': true
+  };
+
   const dnaJSONPath = path.join(path.dirname(require.resolve('@spectrum/spectrum-dna')), '..', 'dist', 'data', 'json', 'dna-linked.json');
   return gulp.src(dnaJSONPath)
     .pipe(through.obj(function translateJSON(file, enc, cb) {
-      let pushFile = (name, contents) => {
-        let jsFile = file.clone({contents: false});
-        jsFile.path = path.join(file.base, `${name}.js`);
-        jsFile.contents = Buffer.from(contents);
-        this.push(jsFile);
+
+      let pushFile = (contents, name, extension, folder) => {
+        let vinylFile = file.clone({ contents: false });
+        vinylFile.path = path.join(file.base, folder || '', `${name}.${extension}`);
+        vinylFile.contents = Buffer.from(contents);
+        this.push(vinylFile);
         dnaModules.push(name);
-      }
+      };
+
+      let generateCSSFile = (sections, fileName, folder) => {
+        let contents = `:root {\n`;
+
+        sections.forEach(section => {
+          let prefix = section.varBaseName;
+          for (let key in section) {
+            let value = section[key];
+
+            if (!dropTokens[key]) {
+              contents += getCSSVar(prefix, key, value);
+            }
+          }
+        });
+
+        contents += `}\n`;
+
+        pushFile(contents, 'spectrum-' + fileName, 'css', folder);
+      };
+
+      let generateJSFile = (sections, fileName, folder) => {
+        let basePath = folder ? '../'.repeat(folder.split('/').length) : './';
+        let contents = `const ${fileName} = exports;\n`;
+        let dependencies = {};
+
+        sections.forEach(section => {
+          for (let key in section) {
+            let value = section[key];
+            contents += getExport(key, value);
+
+            if (value[0] === '$') {
+              let dependency = value.substr(1).split('.').shift();
+              dependencies[dependency] = true;
+            }
+          }
+        });
+
+        let requires = '';
+        for (let dependency in dependencies) {
+          requires += `const ${dependency} = require('${basePath}${dependency}.js');\n`;
+        }
+
+        pushFile(requires + contents, fileName, 'js', folder);
+      };
+
+      let generateFiles = (sections, fileName) => {
+        generateCSSFile(sections, fileName, 'css');
+        generateJSFile(sections, fileName, 'js');
+      };
 
       let data = JSON.parse(String(file.contents));
-
       let dnaData = data.dna;
 
       // Globals
       flatVars.forEach(key => {
-          let variables = dnaData[key];
-          let contents = Object.keys(variables)
-            .map(key => getExport(key, variables[key]))
-            .join('');
-
-          pushFile(key, contents);
-        });
+        generateJSFile([dnaData[key]], key, 'js');
+        generateCSSFile([dnaData[key]], key, 'css');
+      });
 
       // Stops
       for (let stopName in dnaData.colorStopData) {
@@ -74,53 +159,65 @@ function generateDNAJS() {
           continue;
         }
 
-        let contents = '';
-
-        // Allow self-reference
-        contents += `var ${stopName} = exports;\n`;
-
-        for (let token in stop.colorTokens) {
-          contents += getExport(token, stop.colorTokens[token]);
-        }
-
-        for (let alias in stop.colorAliases) {
-          contents += getExport(alias, stop.colorAliases[alias]);
-        }
-
-        for (let semantic in stop.colorSemantics) {
-          contents += getExport(semantic, stop.colorSemantics[semantic]);
-        }
-
-        pushFile(stopName, contents);
+        generateFiles([
+          stop.colorTokens,
+          stop.colorAliases,
+          stop.colorSemantics
+        ], stopName);
       }
 
       // Scales
       for (let scaleName in dnaData.scaleData) {
         let scale = dnaData.scaleData[scaleName];
 
-        let contents = '';
-
-        // Allow self-reference
-        contents += `var ${scaleName} = exports;\n`;
-
-        for (let token in scale.dimensionTokens) {
-          // skip name/description/varBaseName
-          contents += getExport(token, scale.dimensionTokens[token]);
-        }
-
-        for (let alias in scale.dimensionAliases) {
-          contents += getExport(alias, scale.dimensionAliases[alias]);
-        }
-
-        pushFile(scaleName, contents);
+        generateFiles([
+          scale.dimensionTokens,
+          scale.dimensionAliases
+        ], scaleName);
       }
 
       // Elements
-      // ? lol
+      let stop = dnaData.elements[Object.keys(dnaData.elements)[0]];
+      let scale = stop[Object.keys(stop)[0]];
+
+      for (let elementName in scale) {
+        let element = scale[elementName];
+        for (let variantName in element) {
+          let variant = element[variantName];
+          let allVariables = {};
+
+          if (variant.states) {
+            for (let stateName in variant.states) {
+              let state = variant.states[stateName];
+              for (let key in state) {
+                let value = state[key];
+                allVariables[key] = value;
+              }
+            }
+          }
+
+          if (variant.dimensions) {
+            for (let key in variant.dimensions) {
+              let value = variant.dimensions[key];
+              allVariables[key] = value;
+            }
+          }
+
+          allVariables.varBaseName = variant.varBaseName;
+
+          generateCSSFile([
+            allVariables
+          ], elementName, 'css/components');
+
+          generateJSFile([
+            allVariables
+          ], elementName, 'js/components');
+        }
+      }
 
       cb();
     }))
-    .pipe(gulp.dest('js/'))
+    .pipe(gulp.dest('./'))
 }
 
 async function generateDNAJSIndex() {
