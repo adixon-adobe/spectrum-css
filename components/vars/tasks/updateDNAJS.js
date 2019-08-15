@@ -100,11 +100,12 @@ function generateDNAJS() {
         sections.forEach(section => {
           let prefix = section.varBaseName;
           for (let key in section) {
-            let value = section[key];
-
-            if (!dropTokens[key]) {
-              contents += getCSSVar(prefix, key, value);
+            if (dropTokens[key]) {
+              continue;
             }
+
+            let value = section[key];
+            contents += getCSSVar(prefix, key, value);
           }
         });
 
@@ -114,18 +115,24 @@ function generateDNAJS() {
       };
 
       let generateJSFile = (sections, fileName, folder) => {
-        let basePath = folder ? '../'.repeat(folder.split('/').length) : './';
+        let basePath = folder ? '../'.repeat(folder.split('/').length - 1) : './';
         let contents = `const ${fileName} = exports;\n`;
         let dependencies = {};
 
         sections.forEach(section => {
           for (let key in section) {
+            if (dropTokens[key]) {
+              continue;
+            }
+
             let value = section[key];
             contents += getExport(key, value);
 
             if (value[0] === '$') {
-              let dependency = value.substr(1).split('.').shift();
-              dependencies[dependency] = true;
+              let dependency = stripReference(value.substr(1)).split('.').shift();
+              if (dependency != fileName) {
+                dependencies[dependency] = true;
+              }
             }
           }
         });
@@ -187,20 +194,28 @@ function generateDNAJS() {
           let allVariables = {};
 
           if (variant.states) {
+            let colorVariables = [];
             for (let stateName in variant.states) {
               let state = variant.states[stateName];
               for (let key in state) {
                 let value = state[key];
                 allVariables[key] = value;
+                colorVariables[key] = value;
               }
             }
           }
 
           if (variant.dimensions) {
+            let dimensionVariables = [];
             for (let key in variant.dimensions) {
               let value = variant.dimensions[key];
               allVariables[key] = value;
+              dimensionVariables[key] = value;
             }
+
+            generateJSFile([
+              dimensionVariables
+            ], elementName, 'js/components');
           }
 
           allVariables.varBaseName = variant.varBaseName;
@@ -208,10 +223,6 @@ function generateDNAJS() {
           generateCSSFile([
             allVariables
           ], elementName, 'css/components');
-
-          generateJSFile([
-            allVariables
-          ], elementName, 'js/components');
         }
       }
 
