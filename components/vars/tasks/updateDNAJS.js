@@ -15,22 +15,110 @@ function generateDNAJSON() {
   return Balthazar.convertVars(outputPath, CSS_OUTPUT_TYPE, dnaPath);
 }
 
+function getExport(key, value) {
+  if (value[0] === '$') {
+    let reference = processReference(value.substr(1));
+    return `exports[${JSON.stringify(key)}] = ${reference};\n`;
+  }
+  else {
+    return `exports[${JSON.stringify(key)}] = ${JSON.stringify(value)};\n`;
+  }
+}
+
+function processReference(value) {
+  let reference = value.replace(/(colorStopData|colorTokens|scaleData|dimensionTokens)\./g, '');
+  let parts = reference.split('.');
+  return parts.shift() + parts.map(JSON.stringify).map(value => `[${value}]`).join('.');
+}
+
 let dnaModules = [];
 function generateDNAJS() {
-  return gulp.src('temp/json/*.json')
+  // Base variables we can just map directly
+  let flatVars = [
+    'colorGlobals',
+    'fontGlobals',
+    'dimensionGlobals',
+    'animationGlobals',
+    'staticAliases'
+  ];
+
+  const dnaJSONPath = path.join(path.dirname(require.resolve('@spectrum/spectrum-dna')), '..', 'dist', 'data', 'json', 'dna-linked.json');
+  return gulp.src(dnaJSONPath)
     .pipe(through.obj(function translateJSON(file, enc, cb) {
-      let data = JSON.parse(String(file.contents));
-      let contents = '';
-      let moduleName = path.basename(file.path).replace(/^spectrum-(.*?)\.json/, '$1');
-      for (let varName in data) {
-        contents += `exports[${JSON.stringify(varName).replace(/spectrum-(global-)?/, '')}] = ${JSON.stringify(data[varName])};\n`
+      let pushFile = (name, contents) => {
+        let jsFile = file.clone({contents: false});
+        jsFile.path = path.join(file.base, `${name}.js`);
+        jsFile.contents = Buffer.from(contents);
+        this.push(jsFile);
+        dnaModules.push(name);
       }
-      file.contents = Buffer.from(contents);
-      file.path = path.join(file.base, `${moduleName}.js`);
 
-      dnaModules.push(moduleName);
+      let data = JSON.parse(String(file.contents));
 
-      cb(null, file);
+      let dnaData = data.dna;
+
+      // Globals
+      flatVars.forEach(key => {
+          let variables = dnaData[key];
+          let contents = Object.keys(variables)
+            .map(key => getExport(key, variables[key]))
+            .join('');
+
+          pushFile(key, contents);
+        });
+
+      // Stops
+      for (let stopName in dnaData.colorStopData) {
+        let stop = dnaData.colorStopData[stopName];
+        if (stop.colorTokens.status === 'Deprecated') {
+          continue;
+        }
+
+        let contents = '';
+
+        // Allow self-reference
+        contents += `var ${stopName} = exports;\n`;
+
+        for (let token in stop.colorTokens) {
+          contents += getExport(token, stop.colorTokens[token]);
+        }
+
+        for (let alias in stop.colorAliases) {
+          contents += getExport(alias, stop.colorAliases[alias]);
+        }
+
+        for (let semantic in stop.colorSemantics) {
+          contents += getExport(semantic, stop.colorSemantics[semantic]);
+        }
+
+        pushFile(stopName, contents);
+      }
+
+      // Scales
+      for (let scaleName in dnaData.scaleData) {
+        let scale = dnaData.scaleData[scaleName];
+
+        let contents = '';
+
+        // Allow self-reference
+        contents += `var ${scaleName} = exports;\n`;
+
+        for (let token in scale.dimensionTokens) {
+          // skip name/description/varBaseName
+          contents += getExport(token, scale.dimensionTokens[token]);
+        }
+
+        for (let alias in scale.dimensionAliases) {
+          contents += getExport(alias, scale.dimensionAliases[alias]);
+        }
+
+        pushFile(scaleName, contents);
+      }
+
+      // Elements
+      // ? lol
+
+      cb();
     }))
     .pipe(gulp.dest('js/'))
 }
