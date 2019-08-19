@@ -113,7 +113,7 @@
   --spectrum-accordion-item-content-padding: 20px;
   --spectrum-accordion-item-border-size-key-focus: 2px;
   --spectrum-accordion-item-border-left-size-key-focus: 2px;
-  --spectrum-actionbutton-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-actionbutton-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-actionbutton-text-font-style: normal;
   --spectrum-actionbutton-text-font-weight: 400;
   --spectrum-actionbutton-text-line-height: 1.5;
@@ -143,7 +143,7 @@
   --spectrum-actionbutton-border-size-selected-down: 1px;
   --spectrum-actionbutton-border-size-selected-key-focus: 2px;
   --spectrum-actionbutton-border-size-selected-disabled: 1px;
-  --spectrum-actionbutton-quiet-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-actionbutton-quiet-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-actionbutton-quiet-text-font-style: normal;
   --spectrum-actionbutton-quiet-text-font-weight: 400;
   --spectrum-actionbutton-quiet-text-line-height: 1.5;
@@ -261,7 +261,7 @@
   --spectrum-breadcrumb-compact-separator-margin-y: 14px;
   --spectrum-breadcrumb-compact-separator-icon-width: 8px;
   --spectrum-breadcrumb-compact-separator-icon-height: 10px;
-  --spectrum-breadcrumb-compact-item-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-breadcrumb-compact-item-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-breadcrumb-compact-item-text-line-height: 1.5;
   --spectrum-breadcrumb-compact-item-text-font-weight: 400;
   --spectrum-breadcrumb-compact-item-margin-left: 1px;
@@ -271,7 +271,7 @@
   --spectrum-breadcrumb-compact-item-padding-x: 10px;
   --spectrum-breadcrumb-compact-title-margin-top: 0px;
   --spectrum-breadcrumb-compact-title-margin-left: 0px;
-  --spectrum-breadcrumb-compact-title-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-breadcrumb-compact-title-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-breadcrumb-compact-title-text-line-height: 1.5;
   --spectrum-breadcrumb-compact-title-text-font-weight: 700;
   --spectrum-breadcrumb-compact-title-padding-x: 10px;
@@ -294,7 +294,7 @@
   --spectrum-breadcrumb-separator-margin-y: 14px;
   --spectrum-breadcrumb-separator-icon-width: 8px;
   --spectrum-breadcrumb-separator-icon-height: 10px;
-  --spectrum-breadcrumb-item-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-breadcrumb-item-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-breadcrumb-item-text-line-height: 1.5;
   --spectrum-breadcrumb-item-text-font-weight: 400;
   --spectrum-breadcrumb-item-margin-left: 1px;
@@ -304,7 +304,7 @@
   --spectrum-breadcrumb-item-padding-x: 10px;
   --spectrum-breadcrumb-title-margin-top: 0px;
   --spectrum-breadcrumb-title-margin-left: 0px;
-  --spectrum-breadcrumb-title-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-breadcrumb-title-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-breadcrumb-title-text-line-height: 1.5;
   --spectrum-breadcrumb-title-text-font-weight: 700;
   --spectrum-breadcrumb-title-padding-x: 10px;
@@ -334,7 +334,7 @@
   --spectrum-breadcrumb-multiline-separator-margin-y: 14px;
   --spectrum-breadcrumb-multiline-separator-icon-width: 8px;
   --spectrum-breadcrumb-multiline-separator-icon-height: 10px;
-  --spectrum-breadcrumb-multiline-item-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-breadcrumb-multiline-item-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-breadcrumb-multiline-item-text-line-height: 1.5;
   --spectrum-breadcrumb-multiline-item-text-font-weight: 400;
   --spectrum-breadcrumb-multiline-item-margin-left: 1px;
@@ -344,7 +344,7 @@
   --spectrum-breadcrumb-multiline-item-padding-x: 10px;
   --spectrum-breadcrumb-multiline-title-margin-top: 0px;
   --spectrum-breadcrumb-multiline-title-margin-left: 0px;
-  --spectrum-breadcrumb-multiline-title-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-breadcrumb-multiline-title-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-breadcrumb-multiline-title-text-line-height: 1.3;
   --spectrum-breadcrumb-multiline-title-text-font-weight: 700;
   --spectrum-breadcrumb-multiline-title-padding-x: 10px;
@@ -557,7 +557,7 @@
   --spectrum-card-quiet-small-min-size: 112px;
   --spectrum-card-quiet-small-title-text-size: 17px;
   --spectrum-card-quiet-small-body-header-margin-top: 18px;
-  --spectrum-checkbox-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-checkbox-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-checkbox-text-font-style: normal;
   --spectrum-checkbox-text-font-weight: 400;
   --spectrum-checkbox-text-line-height: 1.5;
@@ -662,7 +662,7 @@
   --spectrum-checkbox-box-border-size-error-indeterminate-disabled: 2px;
   --spectrum-checkbox-box-border-radius-error-indeterminate-disabled: 2px;
   --spectrum-checkbox-text-gap-error-indeterminate-disabled: 13px;
-  --spectrum-checkbox-quiet-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-checkbox-quiet-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-checkbox-quiet-text-font-style: normal;
   --spectrum-checkbox-quiet-text-font-weight: 400;
   --spectrum-checkbox-quiet-text-line-height: 1.5;
@@ -1024,7 +1024,7 @@
   --spectrum-combobox-quiet-min-width: 80px;
   --spectrum-combobox-quiet-popover-offset-y: 8px;
   --spectrum-combobox-quiet-popover-offset-x: 15px;
-  --spectrum-cyclebutton-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-cyclebutton-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-cyclebutton-text-font-style: normal;
   --spectrum-cyclebutton-text-font-weight: 400;
   --spectrum-cyclebutton-text-line-height: 1.5;
@@ -1136,7 +1136,7 @@
   --spectrum-dropdown-placeholder-text-font-style: italic;
   --spectrum-dropdown-placeholder-text-font-weight: 400;
   --spectrum-dropdown-placeholder-text-size: 17px;
-  --spectrum-dropdown-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-dropdown-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-dropdown-text-font-style: normal;
   --spectrum-dropdown-text-font-weight: 400;
   --spectrum-dropdown-text-line-height: 1.5;
@@ -1179,7 +1179,7 @@
   --spectrum-dropdown-quiet-placeholder-text-font-style: italic;
   --spectrum-dropdown-quiet-placeholder-text-font-weight: 400;
   --spectrum-dropdown-quiet-placeholder-text-size: 17px;
-  --spectrum-dropdown-quiet-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-dropdown-quiet-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-dropdown-quiet-text-font-style: normal;
   --spectrum-dropdown-quiet-text-font-weight: 400;
   --spectrum-dropdown-quiet-text-line-height: 1.5;
@@ -1222,7 +1222,7 @@
   --spectrum-dropdown-thumbnail-small-placeholder-text-font-style: italic;
   --spectrum-dropdown-thumbnail-small-placeholder-text-font-weight: 400;
   --spectrum-dropdown-thumbnail-small-placeholder-text-size: 17px;
-  --spectrum-dropdown-thumbnail-small-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-dropdown-thumbnail-small-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-dropdown-thumbnail-small-text-font-style: normal;
   --spectrum-dropdown-thumbnail-small-text-font-weight: 400;
   --spectrum-dropdown-thumbnail-small-text-line-height: 1.5;
@@ -1275,7 +1275,7 @@
   --spectrum-fieldbutton-placeholder-text-font-style: italic;
   --spectrum-fieldbutton-placeholder-text-font-weight: 400;
   --spectrum-fieldbutton-placeholder-text-size: 17px;
-  --spectrum-fieldbutton-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-fieldbutton-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-fieldbutton-text-font-style: normal;
   --spectrum-fieldbutton-text-font-weight: 400;
   --spectrum-fieldbutton-text-line-height: 1.5;
@@ -1308,7 +1308,7 @@
   --spectrum-fieldbutton-quiet-placeholder-text-font-style: italic;
   --spectrum-fieldbutton-quiet-placeholder-text-font-weight: 400;
   --spectrum-fieldbutton-quiet-placeholder-text-size: 17px;
-  --spectrum-fieldbutton-quiet-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-fieldbutton-quiet-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-fieldbutton-quiet-text-font-style: normal;
   --spectrum-fieldbutton-quiet-text-font-weight: 400;
   --spectrum-fieldbutton-quiet-text-line-height: 1.5;
@@ -1339,7 +1339,7 @@
   --spectrum-fieldbutton-quiet-error-icon-width: 22px;
   --spectrum-fieldbutton-quiet-affixed-border-size: 1px;
   --spectrum-fieldbutton-quiet-border-size-key-focus: 2px;
-  --spectrum-fieldlabel-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-fieldlabel-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-fieldlabel-text-font-style: normal;
   --spectrum-fieldlabel-text-font-weight: 400;
   --spectrum-fieldlabel-text-line-height: 1.3;
@@ -1351,7 +1351,7 @@
   --spectrum-fieldlabel-asterisk-margin-y: 5px;
   --spectrum-fieldlabel-padding-top: 5px;
   --spectrum-fieldlabel-padding-bottom: 6px;
-  --spectrum-fieldlabel-side-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-fieldlabel-side-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-fieldlabel-side-text-font-style: normal;
   --spectrum-fieldlabel-side-text-font-weight: 400;
   --spectrum-fieldlabel-side-text-line-height: 1.3;
@@ -1427,7 +1427,7 @@
   --spectrum-icon-success-small-height: 18px;
   --spectrum-icon-triplegripper-width: 12px;
   --spectrum-icon-triplegripper-height: 9px;
-  --spectrum-label-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-label-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-label-text-font-style: normal;
   --spectrum-label-text-font-weight: 400;
   --spectrum-label-text-line-height: 1.3;
@@ -1438,7 +1438,7 @@
   --spectrum-label-over-background-text-font-weight: 400;
   --spectrum-label-over-background-text-size: 15px;
   --spectrum-label-over-background-text-line-height: 1.5;
-  --spectrum-label-large-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-label-large-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-label-large-text-font-style: normal;
   --spectrum-label-large-text-font-weight: 400;
   --spectrum-label-large-text-line-height: 1.5;
@@ -1451,7 +1451,7 @@
   --spectrum-label-large-over-background-text-size: 19px;
   --spectrum-label-large-over-background-margin-bottom: 15px;
   --spectrum-label-large-over-background-text-line-height: 30px;
-  --spectrum-link-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-link-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-link-text-font-style: normal;
   --spectrum-link-text-font-weight: 400;
   --spectrum-link-text-line-height: 1.5;
@@ -1463,7 +1463,7 @@
   --spectrum-link-over-background-text-size: 17px;
   --spectrum-link-over-background-underline-gap: 1px;
   --spectrum-link-over-background-underline-size: 1px;
-  --spectrum-link-quiet-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-link-quiet-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-link-quiet-text-font-style: normal;
   --spectrum-link-quiet-text-font-weight: 400;
   --spectrum-link-quiet-text-line-height: 1.5;
@@ -1601,7 +1601,7 @@
   --spectrum-quickactions-exit-animation-duration: 130ms;
   --spectrum-quickactions-exit-animation-ease: (0, 0, 0.40, 1);
   --spectrum-quickactions-exit-animation-properties: opacity;
-  --spectrum-radio-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-radio-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-radio-text-font-style: normal;
   --spectrum-radio-text-font-weight: 400;
   --spectrum-radio-text-line-height: 1.5;
@@ -1656,7 +1656,7 @@
   --spectrum-radio-text-gap-error-selected-key-focus: 12px;
   --spectrum-radio-circle-border-size-error-selected-disabled: 2px;
   --spectrum-radio-text-gap-error-selected-disabled: 13px;
-  --spectrum-radio-quiet-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-radio-quiet-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-radio-quiet-text-font-style: normal;
   --spectrum-radio-quiet-text-font-weight: 400;
   --spectrum-radio-quiet-text-line-height: 1.5;
@@ -1761,7 +1761,7 @@
   --spectrum-search-placeholder-text-font-style: italic;
   --spectrum-search-placeholder-text-font-weight: 400;
   --spectrum-search-placeholder-text-size: 17px;
-  --spectrum-search-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-search-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-search-text-font-style: normal;
   --spectrum-search-text-font-weight: 400;
   --spectrum-search-text-line-height: 1.5;
@@ -1802,7 +1802,7 @@
   --spectrum-search-quiet-placeholder-text-font-style: italic;
   --spectrum-search-quiet-placeholder-text-font-weight: 400;
   --spectrum-search-quiet-placeholder-text-size: 17px;
-  --spectrum-search-quiet-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-search-quiet-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-search-quiet-text-font-style: normal;
   --spectrum-search-quiet-text-font-weight: 400;
   --spectrum-search-quiet-text-line-height: 1.5;
@@ -2088,7 +2088,7 @@
   --spectrum-slider-tick-mark-width: 2px;
   --spectrum-slider-tick-mark-border-radius: 1px;
   --spectrum-splitbutton-icon-width: 13px;
-  --spectrum-statuslight-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-statuslight-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-statuslight-text-font-style: normal;
   --spectrum-statuslight-text-font-weight: 400;
   --spectrum-statuslight-text-line-height: 1.5;
@@ -2098,7 +2098,7 @@
   --spectrum-statuslight-height: 40px;
   --spectrum-statuslight-text-gap: 15px;
   --spectrum-statuslight-dot-size: 10px;
-  --spectrum-statuslight-info-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-statuslight-info-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-statuslight-info-text-font-style: normal;
   --spectrum-statuslight-info-text-font-weight: 400;
   --spectrum-statuslight-info-text-line-height: 1.5;
@@ -2108,7 +2108,7 @@
   --spectrum-statuslight-info-height: 40px;
   --spectrum-statuslight-info-text-gap: 15px;
   --spectrum-statuslight-info-dot-size: 10px;
-  --spectrum-statuslight-negative-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-statuslight-negative-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-statuslight-negative-text-font-style: normal;
   --spectrum-statuslight-negative-text-font-weight: 400;
   --spectrum-statuslight-negative-text-line-height: 1.5;
@@ -2118,7 +2118,7 @@
   --spectrum-statuslight-negative-height: 40px;
   --spectrum-statuslight-negative-text-gap: 15px;
   --spectrum-statuslight-negative-dot-size: 10px;
-  --spectrum-statuslight-neutral-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-statuslight-neutral-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-statuslight-neutral-text-font-style: italic;
   --spectrum-statuslight-neutral-text-font-weight: 400;
   --spectrum-statuslight-neutral-text-line-height: 1.5;
@@ -2128,7 +2128,7 @@
   --spectrum-statuslight-neutral-height: 40px;
   --spectrum-statuslight-neutral-text-gap: 15px;
   --spectrum-statuslight-neutral-dot-size: 10px;
-  --spectrum-statuslight-notice-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-statuslight-notice-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-statuslight-notice-text-font-style: normal;
   --spectrum-statuslight-notice-text-font-weight: 400;
   --spectrum-statuslight-notice-text-line-height: 1.5;
@@ -2138,7 +2138,7 @@
   --spectrum-statuslight-notice-height: 40px;
   --spectrum-statuslight-notice-text-gap: 15px;
   --spectrum-statuslight-notice-dot-size: 10px;
-  --spectrum-statuslight-positive-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-statuslight-positive-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-statuslight-positive-text-font-style: normal;
   --spectrum-statuslight-positive-text-font-weight: 400;
   --spectrum-statuslight-positive-text-line-height: 1.5;
@@ -2148,7 +2148,7 @@
   --spectrum-statuslight-positive-height: 40px;
   --spectrum-statuslight-positive-text-gap: 15px;
   --spectrum-statuslight-positive-dot-size: 10px;
-  --spectrum-switch-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-switch-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-switch-text-font-style: normal;
   --spectrum-switch-text-font-weight: 400;
   --spectrum-switch-text-line-height: 1.5;
@@ -2204,7 +2204,7 @@
   --spectrum-switch-text-gap-error-selected-key-focus: 12px;
   --spectrum-switch-handle-border-size-error-selected-disabled: 2px;
   --spectrum-switch-text-gap-error-selected-disabled: 13px;
-  --spectrum-switch-quiet-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-switch-quiet-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-switch-quiet-text-font-style: normal;
   --spectrum-switch-quiet-text-font-weight: 400;
   --spectrum-switch-quiet-text-line-height: 1.5;
@@ -2327,7 +2327,7 @@
   --spectrum-table-quiet-header-border-size-key-focus: 2px;
   --spectrum-table-quiet-cell-border-radius-key-focus: 5px;
   --spectrum-table-quiet-cell-border-size-key-focus: 2px;
-  --spectrum-tabs-compact-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-tabs-compact-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-tabs-compact-text-font-style: normal;
   --spectrum-tabs-compact-text-font-weight: 400;
   --spectrum-tabs-compact-text-line-height: 1.5;
@@ -2352,7 +2352,7 @@
   --spectrum-tabs-compact-focus-area-gap: 10px;
   --spectrum-tabs-compact-selection-indicator-animation-duration: 130ms;
   --spectrum-tabs-compact-selection-indicator-animation-ease: (.45, 0, .40, 1);
-  --spectrum-tabs-compact-vertical-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-tabs-compact-vertical-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-tabs-compact-vertical-text-font-style: normal;
   --spectrum-tabs-compact-vertical-text-font-weight: 400;
   --spectrum-tabs-compact-vertical-text-line-height: 1.5;
@@ -2378,7 +2378,7 @@
   --spectrum-tabs-compact-vertical-focus-area-gap: 20px;
   --spectrum-tabs-compact-vertical-selection-indicator-animation-duration: 130ms;
   --spectrum-tabs-compact-vertical-selection-indicator-animation-ease: (.45, 0, .40, 1);
-  --spectrum-tabs-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-tabs-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-tabs-text-font-style: normal;
   --spectrum-tabs-text-font-weight: 400;
   --spectrum-tabs-text-line-height: 1.5;
@@ -2403,7 +2403,7 @@
   --spectrum-tabs-focus-area-gap: 10px;
   --spectrum-tabs-selection-indicator-animation-duration: 130ms;
   --spectrum-tabs-selection-indicator-animation-ease: (.45, 0, .40, 1);
-  --spectrum-tabs-quiet-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-tabs-quiet-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-tabs-quiet-text-font-style: normal;
   --spectrum-tabs-quiet-text-font-weight: 400;
   --spectrum-tabs-quiet-text-line-height: 1.5;
@@ -2428,7 +2428,7 @@
   --spectrum-tabs-quiet-focus-area-gap: 10px;
   --spectrum-tabs-quiet-selection-indicator-animation-duration: 130ms;
   --spectrum-tabs-quiet-selection-indicator-animation-ease: (.45, 0, .40, 1);
-  --spectrum-tabs-quiet-compact-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-tabs-quiet-compact-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-tabs-quiet-compact-text-font-style: normal;
   --spectrum-tabs-quiet-compact-text-font-weight: 400;
   --spectrum-tabs-quiet-compact-text-line-height: 1.5;
@@ -2453,7 +2453,7 @@
   --spectrum-tabs-quiet-compact-focus-area-gap: 10px;
   --spectrum-tabs-quiet-compact-selection-indicator-animation-duration: 130ms;
   --spectrum-tabs-quiet-compact-selection-indicator-animation-ease: (.45, 0, .40, 1);
-  --spectrum-tabs-quiet-vertical-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-tabs-quiet-vertical-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-tabs-quiet-vertical-text-font-style: normal;
   --spectrum-tabs-quiet-vertical-text-font-weight: 400;
   --spectrum-tabs-quiet-vertical-text-line-height: 1.5;
@@ -2479,7 +2479,7 @@
   --spectrum-tabs-quiet-vertical-focus-area-gap: 20px;
   --spectrum-tabs-quiet-vertical-selection-indicator-animation-duration: 130ms;
   --spectrum-tabs-quiet-vertical-selection-indicator-animation-ease: (.45, 0, .40, 1);
-  --spectrum-tabs-vertical-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-tabs-vertical-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-tabs-vertical-text-font-style: normal;
   --spectrum-tabs-vertical-text-font-weight: 400;
   --spectrum-tabs-vertical-text-line-height: 1.5;
@@ -2538,7 +2538,7 @@
   --spectrum-textfield-placeholder-text-font-style: italic;
   --spectrum-textfield-placeholder-text-font-weight: 400;
   --spectrum-textfield-placeholder-text-size: 17px;
-  --spectrum-textfield-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-textfield-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-textfield-text-font-style: normal;
   --spectrum-textfield-text-font-weight: 400;
   --spectrum-textfield-text-line-height: 1.5;
@@ -2575,7 +2575,7 @@
   --spectrum-textfield-quiet-placeholder-text-font-style: italic;
   --spectrum-textfield-quiet-placeholder-text-font-weight: 400;
   --spectrum-textfield-quiet-placeholder-text-size: 17px;
-  --spectrum-textfield-quiet-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-textfield-quiet-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-textfield-quiet-text-font-style: normal;
   --spectrum-textfield-quiet-text-font-weight: 400;
   --spectrum-textfield-quiet-text-line-height: 1.5;
@@ -2790,7 +2790,7 @@
   --spectrum-toast-positive-exit-animation-keyframe-0-offset-y: 16px;
   --spectrum-toast-positive-exit-animation-keyframe-100-opacity: 0%;
   --spectrum-toast-positive-exit-animation-keyframe-100-offset-y: 50%;
-  --spectrum-tool-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-tool-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-tool-text-font-style: normal;
   --spectrum-tool-text-font-weight: 400;
   --spectrum-tool-text-line-height: 1.5;
@@ -2816,7 +2816,7 @@
   --spectrum-tool-border-size-key-focus: 2px;
   --spectrum-tool-border-size-disabled: 1px;
   --spectrum-tool-border-size-selected-key-focus: 2px;
-  --spectrum-tool-high-emphasis-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-tool-high-emphasis-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-tool-high-emphasis-text-font-style: normal;
   --spectrum-tool-high-emphasis-text-font-weight: 400;
   --spectrum-tool-high-emphasis-text-line-height: 1.5;
@@ -2975,7 +2975,7 @@
   --spectrum-treeview-item-indent: 35px;
   --spectrum-treeview-item-icon-gap: 10px;
   --spectrum-treeview-item-border-size-key-focus: 2px;
-  --spectrum-body-1-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-body-1-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-body-1-text-font-style: normal;
   --spectrum-body-1-text-font-weight: 400;
   --spectrum-body-1-text-line-height: 1.5;
@@ -2985,7 +2985,7 @@
   --spectrum-body-1-margin-bottom-multiplier: 0.75em;
   --spectrum-body-1-text-size: 24px;
   --spectrum-body-1-margin-bottom: 20px;
-  --spectrum-body-2-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-body-2-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-body-2-text-font-style: normal;
   --spectrum-body-2-text-font-weight: 400;
   --spectrum-body-2-text-line-height: 1.5;
@@ -2995,7 +2995,7 @@
   --spectrum-body-2-margin-bottom-multiplier: 0.75em;
   --spectrum-body-2-text-size: 22px;
   --spectrum-body-2-margin-bottom: 16px;
-  --spectrum-body-3-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-body-3-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-body-3-text-font-style: normal;
   --spectrum-body-3-text-font-weight: 400;
   --spectrum-body-3-text-line-height: 1.5;
@@ -3005,7 +3005,7 @@
   --spectrum-body-3-margin-bottom-multiplier: 0.75em;
   --spectrum-body-3-text-size: 19px;
   --spectrum-body-3-margin-bottom: 15px;
-  --spectrum-body-4-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-body-4-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-body-4-text-font-style: normal;
   --spectrum-body-4-text-font-weight: 400;
   --spectrum-body-4-text-line-height: 1.5;
@@ -3015,7 +3015,7 @@
   --spectrum-body-4-margin-bottom-multiplier: 0.75em;
   --spectrum-body-4-text-size: 17px;
   --spectrum-body-4-margin-bottom: 13px;
-  --spectrum-body-5-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-body-5-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-body-5-text-font-style: normal;
   --spectrum-body-5-text-font-weight: 400;
   --spectrum-body-5-text-line-height: 1.5;
@@ -3325,7 +3325,7 @@
   --spectrum-body-code-5-strong-margin-bottom-multiplier: 0.75em;
   --spectrum-body-code-5-strong-text-size: 15px;
   --spectrum-body-code-5-strong-margin-bottom: 11px;
-  --spectrum-body-base-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-body-base-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-body-base-text-font-style: normal;
   --spectrum-body-base-text-font-weight: 400;
   --spectrum-body-base-text-line-height: 1.5;
@@ -3333,7 +3333,7 @@
   --spectrum-body-base-text-transform: none;
   --spectrum-body-base-margin-top: 0px;
   --spectrum-body-base-margin-bottom-multiplier: 0.75em;
-  --spectrum-body-1-emphasis-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-body-1-emphasis-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-body-1-emphasis-text-font-style: italic;
   --spectrum-body-1-emphasis-text-font-weight: 400;
   --spectrum-body-1-emphasis-text-line-height: 1.5;
@@ -3343,7 +3343,7 @@
   --spectrum-body-1-emphasis-margin-bottom-multiplier: 0.75em;
   --spectrum-body-1-emphasis-text-size: 24px;
   --spectrum-body-1-emphasis-margin-bottom: 20px;
-  --spectrum-body-1-strong-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-body-1-strong-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-body-1-strong-text-font-style: normal;
   --spectrum-body-1-strong-text-font-weight: 700;
   --spectrum-body-1-strong-text-line-height: 1.5;
@@ -3353,7 +3353,7 @@
   --spectrum-body-1-strong-margin-bottom-multiplier: 0.75em;
   --spectrum-body-1-strong-text-size: 24px;
   --spectrum-body-1-strong-margin-bottom: 20px;
-  --spectrum-body-2-emphasis-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-body-2-emphasis-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-body-2-emphasis-text-font-style: italic;
   --spectrum-body-2-emphasis-text-font-weight: 400;
   --spectrum-body-2-emphasis-text-line-height: 1.5;
@@ -3363,7 +3363,7 @@
   --spectrum-body-2-emphasis-margin-bottom-multiplier: 0.75em;
   --spectrum-body-2-emphasis-text-size: 22px;
   --spectrum-body-2-emphasis-margin-bottom: 16px;
-  --spectrum-body-2-strong-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-body-2-strong-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-body-2-strong-text-font-style: normal;
   --spectrum-body-2-strong-text-font-weight: 700;
   --spectrum-body-2-strong-text-line-height: 1.5;
@@ -3373,7 +3373,7 @@
   --spectrum-body-2-strong-margin-bottom-multiplier: 0.75em;
   --spectrum-body-2-strong-text-size: 22px;
   --spectrum-body-2-strong-margin-bottom: 16px;
-  --spectrum-body-3-emphasis-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-body-3-emphasis-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-body-3-emphasis-text-font-style: italic;
   --spectrum-body-3-emphasis-text-font-weight: 400;
   --spectrum-body-3-emphasis-text-line-height: 1.5;
@@ -3383,7 +3383,7 @@
   --spectrum-body-3-emphasis-margin-bottom-multiplier: 0.75em;
   --spectrum-body-3-emphasis-text-size: 19px;
   --spectrum-body-3-emphasis-margin-bottom: 15px;
-  --spectrum-body-3-strong-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-body-3-strong-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-body-3-strong-text-font-style: normal;
   --spectrum-body-3-strong-text-font-weight: 700;
   --spectrum-body-3-strong-text-line-height: 1.5;
@@ -3393,7 +3393,7 @@
   --spectrum-body-3-strong-margin-bottom-multiplier: 0.75em;
   --spectrum-body-3-strong-text-size: 19px;
   --spectrum-body-3-strong-margin-bottom: 15px;
-  --spectrum-body-4-emphasis-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-body-4-emphasis-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-body-4-emphasis-text-font-style: italic;
   --spectrum-body-4-emphasis-text-font-weight: 400;
   --spectrum-body-4-emphasis-text-line-height: 1.5;
@@ -3403,7 +3403,7 @@
   --spectrum-body-4-emphasis-margin-bottom-multiplier: 0.75em;
   --spectrum-body-4-emphasis-text-size: 17px;
   --spectrum-body-4-emphasis-margin-bottom: 13px;
-  --spectrum-body-4-strong-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-body-4-strong-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-body-4-strong-text-font-style: normal;
   --spectrum-body-4-strong-text-font-weight: 700;
   --spectrum-body-4-strong-text-line-height: 1.5;
@@ -3413,7 +3413,7 @@
   --spectrum-body-4-strong-margin-bottom-multiplier: 0.75em;
   --spectrum-body-4-strong-text-size: 17px;
   --spectrum-body-4-strong-margin-bottom: 13px;
-  --spectrum-body-5-emphasis-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-body-5-emphasis-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-body-5-emphasis-text-font-style: italic;
   --spectrum-body-5-emphasis-text-font-weight: 400;
   --spectrum-body-5-emphasis-text-line-height: 1.5;
@@ -3423,7 +3423,7 @@
   --spectrum-body-5-emphasis-margin-bottom-multiplier: 0.75em;
   --spectrum-body-5-emphasis-text-size: 15px;
   --spectrum-body-5-emphasis-margin-bottom: 11px;
-  --spectrum-body-5-strong-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-body-5-strong-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-body-5-strong-text-font-style: normal;
   --spectrum-body-5-strong-text-font-weight: 700;
   --spectrum-body-5-strong-text-line-height: 1.5;
@@ -3583,7 +3583,7 @@
   --spectrum-body-han-5-strong-margin-bottom-multiplier: 0.75em;
   --spectrum-body-han-5-strong-text-size: 15px;
   --spectrum-body-han-5-strong-margin-bottom: 11px;
-  --spectrum-body-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-body-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-body-text-font-style: normal;
   --spectrum-body-text-font-weight: 400;
   --spectrum-body-text-line-height: 1.5;
@@ -3592,7 +3592,7 @@
   --spectrum-body-font-line-height: 25px;
   --spectrum-body-text-size: 17px;
   --spectrum-body-margin-bottom: 13px;
-  --spectrum-body-large-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-body-large-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-body-large-text-font-style: normal;
   --spectrum-body-large-text-font-weight: 400;
   --spectrum-body-large-text-line-height: 1.5;
@@ -3601,7 +3601,7 @@
   --spectrum-body-large-font-line-height: 30px;
   --spectrum-body-large-text-size: 22px;
   --spectrum-body-large-margin-bottom: 16px;
-  --spectrum-body-secondary-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-body-secondary-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-body-secondary-text-font-style: normal;
   --spectrum-body-secondary-text-font-weight: 400;
   --spectrum-body-secondary-text-line-height: 1.5;
@@ -3609,7 +3609,7 @@
   --spectrum-body-secondary-text-transform: none;
   --spectrum-body-secondary-text-size: 17px;
   --spectrum-body-secondary-margin-bottom: 13px;
-  --spectrum-body-small-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-body-small-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-body-small-text-font-style: normal;
   --spectrum-body-small-text-font-weight: 400;
   --spectrum-body-small-text-line-height: 1.5;
@@ -3648,7 +3648,7 @@
   --spectrum-detail-article-strong-margin-bottom-multiplier: 0.75em;
   --spectrum-detail-article-strong-text-size: 13px;
   --spectrum-detail-article-strong-margin-bottom: 10px;
-  --spectrum-detail-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-detail-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-detail-text-font-style: normal;
   --spectrum-detail-text-font-weight: 400;
   --spectrum-detail-text-line-height: 1.5;
@@ -3658,7 +3658,7 @@
   --spectrum-detail-margin-bottom-multiplier: 0.75em;
   --spectrum-detail-text-size: 13px;
   --spectrum-detail-margin-bottom: 10px;
-  --spectrum-detail-emphasis-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-detail-emphasis-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-detail-emphasis-text-font-style: italic;
   --spectrum-detail-emphasis-text-font-weight: 400;
   --spectrum-detail-emphasis-text-line-height: 1.5;
@@ -3668,7 +3668,7 @@
   --spectrum-detail-emphasis-margin-bottom-multiplier: 0.75em;
   --spectrum-detail-emphasis-text-size: 13px;
   --spectrum-detail-emphasis-margin-bottom: 10px;
-  --spectrum-detail-strong-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-detail-strong-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-detail-strong-text-font-style: normal;
   --spectrum-detail-strong-text-font-weight: 700;
   --spectrum-detail-strong-text-line-height: 1.5;
@@ -3708,7 +3708,7 @@
   --spectrum-detail-han-strong-margin-bottom-multiplier: 0.75em;
   --spectrum-detail-han-strong-text-size: 13px;
   --spectrum-detail-han-strong-margin-bottom: 10px;
-  --spectrum-display-1-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-display-1-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-display-1-text-font-style: normal;
   --spectrum-display-1-text-font-weight: 700;
   --spectrum-display-1-text-line-height: 1.3;
@@ -3718,7 +3718,7 @@
   --spectrum-display-1-text-size: 49px;
   --spectrum-display-1-margin-top: 44px;
   --spectrum-display-1-margin-bottom: 14px;
-  --spectrum-display-2-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-display-2-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-display-2-text-font-style: normal;
   --spectrum-display-2-text-font-weight: 700;
   --spectrum-display-2-text-line-height: 1.3;
@@ -3848,7 +3848,7 @@
   --spectrum-display-quiet-article-2-strong-text-size: 44px;
   --spectrum-display-quiet-article-2-strong-margin-top: 39px;
   --spectrum-display-quiet-article-2-strong-margin-bottom: 13px;
-  --spectrum-display-1-emphasis-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-display-1-emphasis-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-display-1-emphasis-text-font-style: italic;
   --spectrum-display-1-emphasis-text-font-weight: 700;
   --spectrum-display-1-emphasis-text-line-height: 1.3;
@@ -3858,7 +3858,7 @@
   --spectrum-display-1-emphasis-text-size: 49px;
   --spectrum-display-1-emphasis-margin-top: 44px;
   --spectrum-display-1-emphasis-margin-bottom: 14px;
-  --spectrum-display-1-strong-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-display-1-strong-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-display-1-strong-text-font-style: normal;
   --spectrum-display-1-strong-text-font-weight: 900;
   --spectrum-display-1-strong-text-line-height: 1.3;
@@ -3868,7 +3868,7 @@
   --spectrum-display-1-strong-text-size: 49px;
   --spectrum-display-1-strong-margin-top: 44px;
   --spectrum-display-1-strong-margin-bottom: 14px;
-  --spectrum-display-2-emphasis-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-display-2-emphasis-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-display-2-emphasis-text-font-style: italic;
   --spectrum-display-2-emphasis-text-font-weight: 700;
   --spectrum-display-2-emphasis-text-line-height: 1.3;
@@ -3878,7 +3878,7 @@
   --spectrum-display-2-emphasis-text-size: 44px;
   --spectrum-display-2-emphasis-margin-top: 39px;
   --spectrum-display-2-emphasis-margin-bottom: 13px;
-  --spectrum-display-2-strong-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-display-2-strong-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-display-2-strong-text-font-style: normal;
   --spectrum-display-2-strong-text-font-weight: 900;
   --spectrum-display-2-strong-text-line-height: 1.3;
@@ -3888,7 +3888,7 @@
   --spectrum-display-2-strong-text-size: 44px;
   --spectrum-display-2-strong-margin-top: 39px;
   --spectrum-display-2-strong-margin-bottom: 13px;
-  --spectrum-display-quiet-1-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-display-quiet-1-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-display-quiet-1-text-font-style: normal;
   --spectrum-display-quiet-1-text-font-weight: 300;
   --spectrum-display-quiet-1-text-line-height: 1.3;
@@ -3898,7 +3898,7 @@
   --spectrum-display-quiet-1-text-size: 49px;
   --spectrum-display-quiet-1-margin-top: 44px;
   --spectrum-display-quiet-1-margin-bottom: 14px;
-  --spectrum-display-quiet-1-emphasis-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-display-quiet-1-emphasis-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-display-quiet-1-emphasis-text-font-style: italic;
   --spectrum-display-quiet-1-emphasis-text-font-weight: 300;
   --spectrum-display-quiet-1-emphasis-text-line-height: 1.3;
@@ -3908,7 +3908,7 @@
   --spectrum-display-quiet-1-emphasis-text-size: 49px;
   --spectrum-display-quiet-1-emphasis-margin-top: 44px;
   --spectrum-display-quiet-1-emphasis-margin-bottom: 14px;
-  --spectrum-display-quiet-1-strong-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-display-quiet-1-strong-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-display-quiet-1-strong-text-font-style: normal;
   --spectrum-display-quiet-1-strong-text-font-weight: 700;
   --spectrum-display-quiet-1-strong-text-line-height: 1.3;
@@ -3918,7 +3918,7 @@
   --spectrum-display-quiet-1-strong-text-size: 49px;
   --spectrum-display-quiet-1-strong-margin-top: 44px;
   --spectrum-display-quiet-1-strong-margin-bottom: 14px;
-  --spectrum-display-quiet-2-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-display-quiet-2-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-display-quiet-2-text-font-style: normal;
   --spectrum-display-quiet-2-text-font-weight: 300;
   --spectrum-display-quiet-2-text-line-height: 1.3;
@@ -3928,7 +3928,7 @@
   --spectrum-display-quiet-2-text-size: 44px;
   --spectrum-display-quiet-2-margin-top: 39px;
   --spectrum-display-quiet-2-margin-bottom: 13px;
-  --spectrum-display-quiet-2-emphasis-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-display-quiet-2-emphasis-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-display-quiet-2-emphasis-text-font-style: italic;
   --spectrum-display-quiet-2-emphasis-text-font-weight: 300;
   --spectrum-display-quiet-2-emphasis-text-line-height: 1.3;
@@ -3938,7 +3938,7 @@
   --spectrum-display-quiet-2-emphasis-text-size: 44px;
   --spectrum-display-quiet-2-emphasis-margin-top: 39px;
   --spectrum-display-quiet-2-emphasis-margin-bottom: 13px;
-  --spectrum-display-quiet-2-strong-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-display-quiet-2-strong-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-display-quiet-2-strong-text-font-style: normal;
   --spectrum-display-quiet-2-strong-text-font-weight: 700;
   --spectrum-display-quiet-2-strong-text-line-height: 1.3;
@@ -3948,7 +3948,7 @@
   --spectrum-display-quiet-2-strong-text-size: 44px;
   --spectrum-display-quiet-2-strong-margin-top: 39px;
   --spectrum-display-quiet-2-strong-margin-bottom: 13px;
-  --spectrum-display-strong-1-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-display-strong-1-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-display-strong-1-text-font-style: normal;
   --spectrum-display-strong-1-text-font-weight: 900;
   --spectrum-display-strong-1-text-line-height: 1.3;
@@ -3958,7 +3958,7 @@
   --spectrum-display-strong-1-text-size: 49px;
   --spectrum-display-strong-1-margin-top: 44px;
   --spectrum-display-strong-1-margin-bottom: 14px;
-  --spectrum-display-strong-1-emphasis-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-display-strong-1-emphasis-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-display-strong-1-emphasis-text-font-style: italic;
   --spectrum-display-strong-1-emphasis-text-font-weight: 900;
   --spectrum-display-strong-1-emphasis-text-line-height: 1.3;
@@ -3968,7 +3968,7 @@
   --spectrum-display-strong-1-emphasis-text-size: 49px;
   --spectrum-display-strong-1-emphasis-margin-top: 44px;
   --spectrum-display-strong-1-emphasis-margin-bottom: 14px;
-  --spectrum-display-strong-1-strong-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-display-strong-1-strong-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-display-strong-1-strong-text-font-style: normal;
   --spectrum-display-strong-1-strong-text-font-weight: 900;
   --spectrum-display-strong-1-strong-text-line-height: 1.3;
@@ -3978,7 +3978,7 @@
   --spectrum-display-strong-1-strong-text-size: 49px;
   --spectrum-display-strong-1-strong-margin-top: 44px;
   --spectrum-display-strong-1-strong-margin-bottom: 14px;
-  --spectrum-display-strong-2-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-display-strong-2-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-display-strong-2-text-font-style: normal;
   --spectrum-display-strong-2-text-font-weight: 900;
   --spectrum-display-strong-2-text-line-height: 1.3;
@@ -3988,7 +3988,7 @@
   --spectrum-display-strong-2-text-size: 44px;
   --spectrum-display-strong-2-margin-top: 39px;
   --spectrum-display-strong-2-margin-bottom: 13px;
-  --spectrum-display-strong-2-emphasis-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-display-strong-2-emphasis-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-display-strong-2-emphasis-text-font-style: italic;
   --spectrum-display-strong-2-emphasis-text-font-weight: 900;
   --spectrum-display-strong-2-emphasis-text-line-height: 1.3;
@@ -3998,7 +3998,7 @@
   --spectrum-display-strong-2-emphasis-text-size: 44px;
   --spectrum-display-strong-2-emphasis-margin-top: 39px;
   --spectrum-display-strong-2-emphasis-margin-bottom: 13px;
-  --spectrum-display-strong-2-strong-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-display-strong-2-strong-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-display-strong-2-strong-text-font-style: normal;
   --spectrum-display-strong-2-strong-text-font-weight: 900;
   --spectrum-display-strong-2-strong-text-line-height: 1.3;
@@ -4188,7 +4188,7 @@
   --spectrum-display-strong-han-2-strong-text-size: 44px;
   --spectrum-display-strong-han-2-strong-margin-top: 39px;
   --spectrum-display-strong-han-2-strong-margin-bottom: 11px;
-  --spectrum-heading-1-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-heading-1-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-heading-1-text-font-style: normal;
   --spectrum-heading-1-text-font-weight: 700;
   --spectrum-heading-1-text-line-height: 1.3;
@@ -4198,7 +4198,7 @@
   --spectrum-heading-1-text-size: 39px;
   --spectrum-heading-1-margin-top: 34px;
   --spectrum-heading-1-margin-bottom: 11px;
-  --spectrum-heading-2-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-heading-2-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-heading-2-text-font-style: normal;
   --spectrum-heading-2-text-font-weight: 700;
   --spectrum-heading-2-text-line-height: 1.3;
@@ -4208,7 +4208,7 @@
   --spectrum-heading-2-text-size: 31px;
   --spectrum-heading-2-margin-top: 27px;
   --spectrum-heading-2-margin-bottom: 9px;
-  --spectrum-heading-3-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-heading-3-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-heading-3-text-font-style: normal;
   --spectrum-heading-3-text-font-weight: 700;
   --spectrum-heading-3-text-line-height: 1.3;
@@ -4218,7 +4218,7 @@
   --spectrum-heading-3-text-size: 24px;
   --spectrum-heading-3-margin-top: 22px;
   --spectrum-heading-3-margin-bottom: 8px;
-  --spectrum-heading-4-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-heading-4-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-heading-4-text-font-style: normal;
   --spectrum-heading-4-text-font-weight: 700;
   --spectrum-heading-4-text-line-height: 1.3;
@@ -4228,7 +4228,7 @@
   --spectrum-heading-4-text-size: 22px;
   --spectrum-heading-4-margin-top: 19px;
   --spectrum-heading-4-margin-bottom: 6px;
-  --spectrum-heading-5-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-heading-5-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-heading-5-text-font-style: normal;
   --spectrum-heading-5-text-font-weight: 700;
   --spectrum-heading-5-text-line-height: 1.3;
@@ -4238,7 +4238,7 @@
   --spectrum-heading-5-text-size: 19px;
   --spectrum-heading-5-margin-top: 17px;
   --spectrum-heading-5-margin-bottom: 5px;
-  --spectrum-heading-6-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-heading-6-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-heading-6-text-font-style: normal;
   --spectrum-heading-6-text-font-weight: 700;
   --spectrum-heading-6-text-line-height: 1.3;
@@ -4488,14 +4488,14 @@
   --spectrum-heading-quiet-article-2-strong-text-size: 31px;
   --spectrum-heading-quiet-article-2-strong-margin-top: 27px;
   --spectrum-heading-quiet-article-2-strong-margin-bottom: 9px;
-  --spectrum-heading-base-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-heading-base-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-heading-base-text-font-style: normal;
   --spectrum-heading-base-text-font-weight: 700;
   --spectrum-heading-base-text-line-height: 1.3;
   --spectrum-heading-base-text-letter-spacing: 0;
   --spectrum-heading-base-text-transform: none;
   --spectrum-heading-base-margin-bottom-multiplier: 0.25em;
-  --spectrum-heading-1-emphasis-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-heading-1-emphasis-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-heading-1-emphasis-text-font-style: italic;
   --spectrum-heading-1-emphasis-text-font-weight: 700;
   --spectrum-heading-1-emphasis-text-line-height: 1.3;
@@ -4505,7 +4505,7 @@
   --spectrum-heading-1-emphasis-text-size: 39px;
   --spectrum-heading-1-emphasis-margin-top: 34px;
   --spectrum-heading-1-emphasis-margin-bottom: 11px;
-  --spectrum-heading-1-strong-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-heading-1-strong-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-heading-1-strong-text-font-style: normal;
   --spectrum-heading-1-strong-text-font-weight: 900;
   --spectrum-heading-1-strong-text-line-height: 1.3;
@@ -4515,7 +4515,7 @@
   --spectrum-heading-1-strong-text-size: 39px;
   --spectrum-heading-1-strong-margin-top: 34px;
   --spectrum-heading-1-strong-margin-bottom: 11px;
-  --spectrum-heading-2-emphasis-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-heading-2-emphasis-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-heading-2-emphasis-text-font-style: italic;
   --spectrum-heading-2-emphasis-text-font-weight: 700;
   --spectrum-heading-2-emphasis-text-line-height: 1.3;
@@ -4525,7 +4525,7 @@
   --spectrum-heading-2-emphasis-text-size: 31px;
   --spectrum-heading-2-emphasis-margin-top: 27px;
   --spectrum-heading-2-emphasis-margin-bottom: 9px;
-  --spectrum-heading-2-strong-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-heading-2-strong-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-heading-2-strong-text-font-style: normal;
   --spectrum-heading-2-strong-text-font-weight: 900;
   --spectrum-heading-2-strong-text-line-height: 1.3;
@@ -4535,7 +4535,7 @@
   --spectrum-heading-2-strong-text-size: 31px;
   --spectrum-heading-2-strong-margin-top: 27px;
   --spectrum-heading-2-strong-margin-bottom: 9px;
-  --spectrum-heading-3-emphasis-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-heading-3-emphasis-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-heading-3-emphasis-text-font-style: italic;
   --spectrum-heading-3-emphasis-text-font-weight: 700;
   --spectrum-heading-3-emphasis-text-line-height: 1.3;
@@ -4545,7 +4545,7 @@
   --spectrum-heading-3-emphasis-text-size: 24px;
   --spectrum-heading-3-emphasis-margin-top: 22px;
   --spectrum-heading-3-emphasis-margin-bottom: 8px;
-  --spectrum-heading-3-strong-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-heading-3-strong-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-heading-3-strong-text-font-style: normal;
   --spectrum-heading-3-strong-text-font-weight: 900;
   --spectrum-heading-3-strong-text-line-height: 1.3;
@@ -4555,7 +4555,7 @@
   --spectrum-heading-3-strong-text-size: 24px;
   --spectrum-heading-3-strong-margin-top: 22px;
   --spectrum-heading-3-strong-margin-bottom: 8px;
-  --spectrum-heading-4-emphasis-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-heading-4-emphasis-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-heading-4-emphasis-text-font-style: italic;
   --spectrum-heading-4-emphasis-text-font-weight: 700;
   --spectrum-heading-4-emphasis-text-line-height: 1.3;
@@ -4565,7 +4565,7 @@
   --spectrum-heading-4-emphasis-text-size: 22px;
   --spectrum-heading-4-emphasis-margin-top: 19px;
   --spectrum-heading-4-emphasis-margin-bottom: 6px;
-  --spectrum-heading-4-strong-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-heading-4-strong-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-heading-4-strong-text-font-style: normal;
   --spectrum-heading-4-strong-text-font-weight: 900;
   --spectrum-heading-4-strong-text-line-height: 1.3;
@@ -4575,7 +4575,7 @@
   --spectrum-heading-4-strong-text-size: 22px;
   --spectrum-heading-4-strong-margin-top: 19px;
   --spectrum-heading-4-strong-margin-bottom: 6px;
-  --spectrum-heading-5-emphasis-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-heading-5-emphasis-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-heading-5-emphasis-text-font-style: italic;
   --spectrum-heading-5-emphasis-text-font-weight: 700;
   --spectrum-heading-5-emphasis-text-line-height: 1.3;
@@ -4585,7 +4585,7 @@
   --spectrum-heading-5-emphasis-text-size: 19px;
   --spectrum-heading-5-emphasis-margin-top: 17px;
   --spectrum-heading-5-emphasis-margin-bottom: 5px;
-  --spectrum-heading-5-strong-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-heading-5-strong-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-heading-5-strong-text-font-style: normal;
   --spectrum-heading-5-strong-text-font-weight: 900;
   --spectrum-heading-5-strong-text-line-height: 1.3;
@@ -4595,7 +4595,7 @@
   --spectrum-heading-5-strong-text-size: 19px;
   --spectrum-heading-5-strong-margin-top: 17px;
   --spectrum-heading-5-strong-margin-bottom: 5px;
-  --spectrum-heading-6-emphasis-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-heading-6-emphasis-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-heading-6-emphasis-text-font-style: italic;
   --spectrum-heading-6-emphasis-text-font-weight: 700;
   --spectrum-heading-6-emphasis-text-line-height: 1.3;
@@ -4605,7 +4605,7 @@
   --spectrum-heading-6-emphasis-text-size: 17px;
   --spectrum-heading-6-emphasis-margin-top: 15px;
   --spectrum-heading-6-emphasis-margin-bottom: 4px;
-  --spectrum-heading-6-strong-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-heading-6-strong-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-heading-6-strong-text-font-style: normal;
   --spectrum-heading-6-strong-text-font-weight: 900;
   --spectrum-heading-6-strong-text-line-height: 1.3;
@@ -4615,7 +4615,7 @@
   --spectrum-heading-6-strong-text-size: 17px;
   --spectrum-heading-6-strong-margin-top: 15px;
   --spectrum-heading-6-strong-margin-bottom: 4px;
-  --spectrum-heading-quiet-1-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-heading-quiet-1-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-heading-quiet-1-text-font-style: normal;
   --spectrum-heading-quiet-1-text-font-weight: 300;
   --spectrum-heading-quiet-1-text-line-height: 1.3;
@@ -4625,7 +4625,7 @@
   --spectrum-heading-quiet-1-text-size: 39px;
   --spectrum-heading-quiet-1-margin-top: 34px;
   --spectrum-heading-quiet-1-margin-bottom: 11px;
-  --spectrum-heading-quiet-1-emphasis-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-heading-quiet-1-emphasis-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-heading-quiet-1-emphasis-text-font-style: italic;
   --spectrum-heading-quiet-1-emphasis-text-font-weight: 300;
   --spectrum-heading-quiet-1-emphasis-text-line-height: 1.3;
@@ -4635,7 +4635,7 @@
   --spectrum-heading-quiet-1-emphasis-text-size: 39px;
   --spectrum-heading-quiet-1-emphasis-margin-top: 34px;
   --spectrum-heading-quiet-1-emphasis-margin-bottom: 11px;
-  --spectrum-heading-quiet-1-strong-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-heading-quiet-1-strong-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-heading-quiet-1-strong-text-font-style: normal;
   --spectrum-heading-quiet-1-strong-text-font-weight: 700;
   --spectrum-heading-quiet-1-strong-text-line-height: 1.3;
@@ -4645,7 +4645,7 @@
   --spectrum-heading-quiet-1-strong-text-size: 39px;
   --spectrum-heading-quiet-1-strong-margin-top: 34px;
   --spectrum-heading-quiet-1-strong-margin-bottom: 11px;
-  --spectrum-heading-quiet-2-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-heading-quiet-2-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-heading-quiet-2-text-font-style: normal;
   --spectrum-heading-quiet-2-text-font-weight: 300;
   --spectrum-heading-quiet-2-text-line-height: 1.3;
@@ -4655,7 +4655,7 @@
   --spectrum-heading-quiet-2-text-size: 31px;
   --spectrum-heading-quiet-2-margin-top: 27px;
   --spectrum-heading-quiet-2-margin-bottom: 9px;
-  --spectrum-heading-quiet-2-emphasis-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-heading-quiet-2-emphasis-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-heading-quiet-2-emphasis-text-font-style: italic;
   --spectrum-heading-quiet-2-emphasis-text-font-weight: 300;
   --spectrum-heading-quiet-2-emphasis-text-line-height: 1.3;
@@ -4665,7 +4665,7 @@
   --spectrum-heading-quiet-2-emphasis-text-size: 31px;
   --spectrum-heading-quiet-2-emphasis-margin-top: 27px;
   --spectrum-heading-quiet-2-emphasis-margin-bottom: 9px;
-  --spectrum-heading-quiet-2-strong-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-heading-quiet-2-strong-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-heading-quiet-2-strong-text-font-style: normal;
   --spectrum-heading-quiet-2-strong-text-font-weight: 700;
   --spectrum-heading-quiet-2-strong-text-line-height: 1.3;
@@ -4675,7 +4675,7 @@
   --spectrum-heading-quiet-2-strong-text-size: 31px;
   --spectrum-heading-quiet-2-strong-margin-top: 27px;
   --spectrum-heading-quiet-2-strong-margin-bottom: 9px;
-  --spectrum-heading-strong-1-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-heading-strong-1-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-heading-strong-1-text-font-style: normal;
   --spectrum-heading-strong-1-text-font-weight: 900;
   --spectrum-heading-strong-1-text-line-height: 1.3;
@@ -4685,7 +4685,7 @@
   --spectrum-heading-strong-1-text-size: 39px;
   --spectrum-heading-strong-1-margin-top: 34px;
   --spectrum-heading-strong-1-margin-bottom: 11px;
-  --spectrum-heading-strong-1-emphasis-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-heading-strong-1-emphasis-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-heading-strong-1-emphasis-text-font-style: italic;
   --spectrum-heading-strong-1-emphasis-text-font-weight: 900;
   --spectrum-heading-strong-1-emphasis-text-line-height: 1.3;
@@ -4695,7 +4695,7 @@
   --spectrum-heading-strong-1-emphasis-text-size: 39px;
   --spectrum-heading-strong-1-emphasis-margin-top: 34px;
   --spectrum-heading-strong-1-emphasis-margin-bottom: 11px;
-  --spectrum-heading-strong-1-strong-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-heading-strong-1-strong-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-heading-strong-1-strong-text-font-style: normal;
   --spectrum-heading-strong-1-strong-text-font-weight: 900;
   --spectrum-heading-strong-1-strong-text-line-height: 1.3;
@@ -4705,7 +4705,7 @@
   --spectrum-heading-strong-1-strong-text-size: 39px;
   --spectrum-heading-strong-1-strong-margin-top: 34px;
   --spectrum-heading-strong-1-strong-margin-bottom: 11px;
-  --spectrum-heading-strong-2-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-heading-strong-2-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-heading-strong-2-text-font-style: normal;
   --spectrum-heading-strong-2-text-font-weight: 900;
   --spectrum-heading-strong-2-text-line-height: 1.3;
@@ -4715,7 +4715,7 @@
   --spectrum-heading-strong-2-text-size: 31px;
   --spectrum-heading-strong-2-margin-top: 27px;
   --spectrum-heading-strong-2-margin-bottom: 9px;
-  --spectrum-heading-strong-2-emphasis-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-heading-strong-2-emphasis-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-heading-strong-2-emphasis-text-font-style: italic;
   --spectrum-heading-strong-2-emphasis-text-font-weight: 900;
   --spectrum-heading-strong-2-emphasis-text-line-height: 1.3;
@@ -4725,7 +4725,7 @@
   --spectrum-heading-strong-2-emphasis-text-size: 31px;
   --spectrum-heading-strong-2-emphasis-margin-top: 27px;
   --spectrum-heading-strong-2-emphasis-margin-bottom: 9px;
-  --spectrum-heading-strong-2-strong-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-heading-strong-2-strong-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-heading-strong-2-strong-text-font-style: normal;
   --spectrum-heading-strong-2-strong-text-font-weight: 900;
   --spectrum-heading-strong-2-strong-text-line-height: 1.3;
@@ -5041,7 +5041,7 @@
   --spectrum-heading-page-title-text-font-weight: 300;
   --spectrum-heading-page-title-text-size: 34px;
   --spectrum-heading-page-title-text-line-height: 1.3;
-  --spectrum-heading-subtitle1-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-heading-subtitle1-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-heading-subtitle1-text-font-style: normal;
   --spectrum-heading-subtitle1-text-font-weight: 700;
   --spectrum-heading-subtitle1-text-line-height: 1.3;
@@ -5052,7 +5052,7 @@
   --spectrum-heading-subtitle1-margin-top: 19px;
   --spectrum-heading-subtitle1-margin-bottom: 6px;
   --spectrum-heading-subtitle1-font-line-height: 1.5;
-  --spectrum-heading-subtitle2-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-heading-subtitle2-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-heading-subtitle2-text-font-style: normal;
   --spectrum-heading-subtitle2-text-font-weight: 700;
   --spectrum-heading-subtitle2-text-line-height: 1.3;
@@ -5063,7 +5063,7 @@
   --spectrum-heading-subtitle2-margin-top: 15px;
   --spectrum-heading-subtitle2-margin-bottom: 4px;
   --spectrum-heading-subtitle2-font-line-height: 1.5;
-  --spectrum-heading-subtitle3-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-heading-subtitle3-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-heading-subtitle3-text-font-style: normal;
   --spectrum-heading-subtitle3-text-font-weight: 700;
   --spectrum-heading-subtitle3-text-line-height: 1.3;
@@ -5104,7 +5104,7 @@
   --spectrum-subheading-article-strong-text-size: 13px;
   --spectrum-subheading-article-strong-margin-top: 15px;
   --spectrum-subheading-article-strong-margin-bottom: 4px;
-  --spectrum-subheading-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-subheading-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-subheading-text-font-style: normal;
   --spectrum-subheading-text-font-weight: 700;
   --spectrum-subheading-text-line-height: 1.3;
@@ -5114,7 +5114,7 @@
   --spectrum-subheading-text-size: 13px;
   --spectrum-subheading-margin-top: 15px;
   --spectrum-subheading-margin-bottom: 4px;
-  --spectrum-subheading-emphasis-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-subheading-emphasis-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-subheading-emphasis-text-font-style: italic;
   --spectrum-subheading-emphasis-text-font-weight: 700;
   --spectrum-subheading-emphasis-text-line-height: 1.3;
@@ -5124,7 +5124,7 @@
   --spectrum-subheading-emphasis-text-size: 13px;
   --spectrum-subheading-emphasis-margin-top: 15px;
   --spectrum-subheading-emphasis-margin-bottom: 4px;
-  --spectrum-subheading-strong-text-font-family: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-subheading-strong-text-font-family: adobe-clean-ux, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
   --spectrum-subheading-strong-text-font-style: normal;
   --spectrum-subheading-strong-text-font-weight: 900;
   --spectrum-subheading-strong-text-line-height: 1.3;

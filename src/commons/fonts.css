@@ -22,7 +22,7 @@ governing permissions and limitations under the License.
   --spectrum-font-family-article-ko: source-han-serif-korean, var(--spectrum-font-fallbacks-serif);
   --spectrum-font-family-article-zh-hans: source-han-serif-sc, var(--spectrum-font-fallbacks-serif);
   --spectrum-font-family-article-zh-hant: source-han-serif-tc, var(--spectrum-font-fallbacks-serif);
-  --spectrum-font-family-base: adobe-clean, "Source Sans Pro", var(--spectrum-font-fallbacks-sans);
+  --spectrum-font-family-base: adobe-clean-ux, adobe-clean, "Source Sans Pro", var(--spectrum-font-fallbacks-sans);
   --spectrum-font-family-code: source-code-pro, "Source Code Pro", var(--spectrum-font-fallbacks-mono);
   --spectrum-font-family-han: adobe-clean-han-japanese, var(--spectrum-font-fallbacks-sans);
   --spectrum-font-family-he: var(--spectrum-font-fallbacks-sans);
